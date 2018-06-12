@@ -1,0 +1,11 @@
+.btn {
+    margin: 4px;
+    color: #DD12E8;
+}
+
+#psychic {
+    text-align: center;
+    background-image: url('./images/psychic.jpg');
+    background-size: cover;
+    color: #DD12E8;
+}

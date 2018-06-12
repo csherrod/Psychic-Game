@@ -9,72 +9,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" media="screen">
     <title>Psychic Game</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron">
-                    <h1>Psychic Game</h1>
-                    <p>Guess what letter I'm thinking of...</p>
-                    <p>You have 9 guesses to get it right. Otherwise, you LOSE!</p>
-                    <button type="button" class="btn">Guesses Left: <span id="guessesLeft"></span></button>
-
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title">Wins:</h2>
-                        <span id="wins">0</span>
+        <div class="jumbotron jumbotron-fluid" id="psychic">
+            <div class="container">
+                <h1 class="display-4"><strong>Psychic Game</strong></h1>
+                <h3>Guess what letter I'm thinking of...</h3>
+                <h3>You have 9 guesses to get it right. Otherwise, you LOSE!</h3>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn">Wins:
+                            <span id="wins"></span>
+                        </button>
+                        <br>
+                        <button type="button" class="btn">Losses:
+                            <span id="losses"></span>
+                        </button>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title">Losses:
-                        </h2>
-                        <span id="losses">0</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title">Guesses Left:</h2>
-                        <span id="guessesLeft">9</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <h2 class="card-title">Your Guesses so Far:
-                            </h2>
+                    <div class="col">
+                        <button type="button" class="btn">Guesses Left:
+                            <span id="guessesLeft"></span>
+                        </button>
+                        <br>
+                        <button type="button" class="btn">Your Guesses:
                             <span id="lettersGuessed"></span>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 
-<!-- Link to Javascript Game -->
-<script src="./javascript/game.js"></script>
+
+    <!-- Link to Javascript Game -->
+    <script src="./javascript/game.js"></script>
 
     <!--Bootstrap links -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
