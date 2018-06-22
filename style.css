@@ -1,11 +1,22 @@
-.btn {
-    margin: 4px;
-    color: #DD12E8;
+body,
+html {
+    height:100%
+}
+.container-fluid {
+  background-image: url("./images/psychic-ability.jpg");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
 }
 
-#psychic {
+.container {
+    position: fixed;
+    bottom: 0;
     text-align: center;
-    background-image: url('./images/psychic.jpg');
-    background-size: cover;
-    color: #DD12E8;
+}
+h1 {
+    font-size: 72px;
 }
