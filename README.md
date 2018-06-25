@@ -11,6 +11,8 @@ You need to have working knowledge of html, css and javascript.
 2.  Once you’ve cloned the repo or unzipped the files navigate to the index.html in the main directory.
 3. This is the homepage for the project.
 4. In your code editor you should be able to open this file to the default web browser to see what it looks like on your machine.
+5. Feel free to make changes and modifications to any of the within this particular repo. I also like to see how different people can make the project once they get inside the code so feel free to contact me to share your handy work.
+6. Have fun!
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Makes the basic layout
