@@ -1,25 +1,31 @@
-# Psychic-Game
-The Psychic Game
+## Project Title: Psychic Game
 
-What it does: 
+If you want to check out a working version of this site click [here](https://csherrod.github.io/Psychic-Game)
 
-  Game built with Javascript that captures users keyboard guesses, places those guesses on the screen and also compares the user guesses to the randomly generated letter the computer guesses.
+## Prerequisites
 
-Why is it useful:
+You need to have working knowledge of html, css and javascript.
 
-  This game will shows how to use javascript code to capture user inputs and then place those inputs into the index file so user can see.
-  
-How users can get started with the project:
+## Getting Started
+1.  Click the green clone button in the top right corner of the page to get a URL to use to clone to your local machine. You can also download a zip file of the project to save to your local machine.
+2.  Once you’ve cloned the repo or unzipped the files navigate to the index.html in the main directory.
+3. This is the homepage for the project.
+4. In your code editor you should be able to open this file to the default web browser to see what it looks like on your machine.
 
-    This game still needs some styling.
-    
- Where users can get help:
- 
-  Feel free to contact me if the project is broken.
-  
-  Who maintains the project:
-  
-    Just me.
-    
-    
-  
+## Built With
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Makes the basic layout
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Makes it pretty
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Makes it interactive
+
+## Author(s)
+* **Cody Sherrod** - [csherrod](https://github.com/csherrod)
+
+## Issues
+* No known issues at this time
+
+* **If you would like to report an issue please feel free to send me an email [here](mailto:w.cody.sherrod@gmail.com)**
+
+## Contact Information
+* [Email](mailto:w.cody.sherrod@gmail.com)
+* [LinkedIn](www.linkedin.com/in/cody-sherrod)
+
